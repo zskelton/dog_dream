@@ -1,21 +1,23 @@
 {
-	"name": "p5play-template",
-	"version": "1.1.9",
-	"description": "Starter code for p5play projects",
-	"author": "p5play",
-	"license": "CC0",
-	"dependencies": {
-		"p5": "^1.9.2",
-		"p5play": "^3.21.4",
-		"q5": "^1.9.16"
-	},
-	"devDependencies": {
-		"@types/p5": "^1.7.6"
-	},
-	"scripts": {
-		"v": "npm version patch --force",
-		"V": "npm version minor --force",
-		"version": "git add -A",
-		"postversion": "git push"
-	}
+  "name": "dpg_dream",
+  "version": "0.1",
+  "description": "Exploring what a dog sees in its dreams.",
+  "author": "Zachary D. Skelton <zskelton@skeltonnetworks.com>",
+  "license": "CC0",
+  "dependencies": {
+    "http-server": "^14.1.1",
+    "p5": "^1.10.0",
+    "p5play": "^3.22.11",
+    "q5": "^1.9.70"
+  },
+  "devDependencies": {
+    "@types/p5": "^1.7.6"
+  },
+  "scripts": {
+    "start": "http-server --cors -c-1",
+    "v": "npm version patch --force",
+    "V": "npm version minor --force",
+    "version": "git add -A",
+    "postversion": "git push"
+  }
 }
