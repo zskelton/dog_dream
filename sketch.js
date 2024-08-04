@@ -8,6 +8,8 @@ function setup() {
 }
 
 function draw() {
+  0.2;
+
   background("skyblue");
 
   if (mouse.presses()) {

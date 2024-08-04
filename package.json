@@ -5,19 +5,15 @@
   "author": "Zachary D. Skelton <zskelton@skeltonnetworks.com>",
   "license": "CC0",
   "dependencies": {
-    "http-server": "^14.1.1",
+    "live-server": "^1.2.0",
     "p5": "^1.10.0",
-    "p5play": "^3.22.11",
-    "q5": "^1.9.70"
+    "p5play": "^3.22.11"
   },
   "devDependencies": {
     "@types/p5": "^1.7.6"
   },
   "scripts": {
-    "start": "http-server --cors -c-1",
-    "v": "npm version patch --force",
-    "V": "npm version minor --force",
-    "version": "git add -A",
-    "postversion": "git push"
+    "start": "live-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
